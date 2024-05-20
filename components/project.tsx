@@ -48,7 +48,7 @@ export default function Project({
           </ul>
         </div>
 
-        <Image
+        <Image 
           src={imageUrl}
           alt="Project I worked on"
           quality={95}

@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pay from "@/public/pay.png";
 import clock from "@/public/clock.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import mental from"@/public/mental2.png"
 
 export const links = [
   {
@@ -69,19 +69,19 @@ export const projectsData = [
     imageUrl: pay,
   },
   {
+    title: "SHRISTI",
+    description:
+      "We Built a Mental Health Tracking App in a hackathon Held at NSEC.I have contributed in the frontend and backend part",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind",],
+    imageUrl: mental,
+  },
+  {
     title: "Analog Clock",
     description:
       "I built an analog watch that shows real time ",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: clock,
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
 ] as const;
 
 export const skillsData = [
