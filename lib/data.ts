@@ -3,8 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pay from "@/public/pay.png";
-import clock from "@/public/clock.png";
+import clock from "@/public/clock.png"
 import mental from"@/public/mental2.png"
+import delhiver from"@/public/Delhiver.png"
 
 export const links = [
   {
@@ -76,11 +77,11 @@ export const projectsData = [
     imageUrl: mental,
   },
   {
-    title: "Analog Clock",
+    title: "Package Delivery Websi",
     description:
-      "I built an analog watch that shows real time ",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: clock,
+      "The system allows partners to update travel details, and users receive a list of matching drivers with pricing based on travel distance.",
+    tags: ["NextJS", "TypeScript", "Tailwind","Prisma","Google Map Api"],
+    imageUrl: delhiver,
   },
 ] as const;
 
