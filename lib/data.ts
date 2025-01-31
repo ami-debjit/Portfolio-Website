@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import pay from "@/public/pay.png";
 import clock from "@/public/clock.png"
 import mental from"@/public/mental2.png"
-import delhiver from"@/public/Delhiver.png"
+import delhiver from"@/public/delhiver.png"
 
 export const links = [
   {
